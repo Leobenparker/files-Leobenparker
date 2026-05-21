@@ -1,40 +1,33 @@
-/* Element selector */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: black;
+  font-family: Arial;
+  color: black;
+  background: #f2f2f2;
 }
 
-/* Parent-child selector */
 header h1 {
-    color: #1bd1c2;
+  color: #1bd1c2;
 }
 
-/* ID selector */
-#special {
-    color: red;
-}
-
-/* Class selector */
 .highlight {
-    color: rgba(0, 128, 0, 0.8);
+  color: green;
 }
 
-/* Navigation styling */
+#special {
+  color: red;
+}
+
 nav a {
-    color: blue;
-    margin-right: 10px;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
 
 nav a:hover {
-    color: darkred;
+  color: orange;
 }
 
-/* Footer */
 footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
