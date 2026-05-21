@@ -1,17 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
-body{ 
-
-    background}: #F2F2F2;
-
-P{
-
-Color: #A60321; 
-
-}
-ol{
-
-color: #FFCD82;
-
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: black;
 }
 
+/* Parent-child selector */
+header h1 {
+    color: #1bd1c2;
+}
+
+/* ID selector */
+#special {
+    color: red;
+}
+
+/* Class selector */
+.highlight {
+    color: rgba(0, 128, 0, 0.8);
+}
+
+/* Navigation styling */
+nav a {
+    color: blue;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkred;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
