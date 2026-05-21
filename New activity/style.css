@@ -1,26 +1,26 @@
 /* Element selector */
 body {
   font-family: 'Oswald', sans-serif;
-  background-color: #f2f2f2;
-  color: black;
+  background-color: #cd9797;
+  color: rgb(151, 52, 52);
 }
 
 body {
   font-family: Arial;
   color: black;
-  background: #f2f2f2;
+  background: #fff2f2;
 }
 
 header h1 {
-  color: #1bd1c2;
+  color: #0a968a;
 }
 
 .highlight {
-  color: green;
+  color: rgb(14, 213, 14);
 }
 
 #special {
-  color: red;
+  color: rgb(135, 35, 35);
 }
 
 nav a {
@@ -33,7 +33,7 @@ nav a:hover {
 }
 
 footer {
-  background: #333;
+  background: #ad5151;
   color: white;
   text-align: center;
   padding: 10px;
