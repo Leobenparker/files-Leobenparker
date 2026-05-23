@@ -4,4 +4,59 @@ body{
   color: rgb(0, 0, 0);
   background: #EDF7F2;
 
-font font-family: 'Smooch Sans', sans-serif;}
+font font-family:'Smooch Sans',sans-serif;}
+
+header {
+    background-color: #2a6f97;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: #ffd166; 
+}
+
+nav a:visited {
+    color: #ccc;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.highlight {
+    color: #0077b6; 
+    font-weight: bold;
+}
+
+/* De-emphasize */
+.muted {
+    color: #888;
+}
+
+
+.answers {
+    margin-top: 20px;
+}
+
+
+footer {
+    background-color: #2a6f97;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#top {
+    scroll-behavior: smooth;
+}
