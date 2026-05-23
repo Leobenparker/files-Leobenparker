@@ -1,8 +1,26 @@
-
+body{
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Oswald:wght@200..700&family=Smooch+Sans:wght@100..900&display=swap');
 
-body {
   color: rgb(0, 0, 0);
   background: #EDF7F2;
+
+font font-family: 'Smooch Sans', sans-serif;}
+
+#main-title {
+    color: #8cb6ec;
+    text-align: center;
 }
 
+.important {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.secondary {
+    color: #888;
+}
+
+span {
+    background-color: #8d7a35;
+    padding: 2px 4px;
+}
