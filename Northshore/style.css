@@ -5,22 +5,3 @@ body{
   background: #EDF7F2;
 
 font font-family: 'Smooch Sans', sans-serif;}
-
-#main-title {
-    color: #8cb6ec;
-    text-align: center;
-}
-
-.important {
-    color: #d9534f;
-    font-weight: bold;
-}
-
-.secondary {
-    color: #888;
-}
-
-span {
-    background-color: #8d7a35;
-    padding: 2px 4px;
-}
