@@ -1,0 +1,42 @@
+#wrapper {
+    width: 850px;
+    margin: auto;
+}
+header{
+    
+    color: rgb(170, 161, 34);
+    font-size: 30px;
+    text-align: center;
+}
+nav{
+
+    padding: 10px;
+    text-align: center;
+}
+figure  {
+    text-align: center;
+}
+body{
+    background-image: url(F1\ 2.jpg);
+
+} 
+body{
+    background-size: cover;
+    background-image: url(F2.jpg);
+    margin: auto;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    color : rgb(252, 252, 252);
+}
+figcaption{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+}
