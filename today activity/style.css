@@ -1,0 +1,46 @@
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: #b4f2f4;
+    border-radius: 20px;
+    
+}
+.menu {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu div:nth-child(6) {    
+    background-color: #dd1802;
+}
+.menu div:nth-child(5) {
+    background-color: #3498db;
+}
+.menu div:nth-child(4) {
+    background-color: #2ecc71;
+}
+.menu div:nth-child(3) {
+    background-color: #f1c40f;
+}
+.menu div:nth-child(2) {
+    background-color: #9b59b6;
+}
+.special {
+    background-color: #99a3e3;
+    grid-column: span 3;
+}
+.menu div:nth-child(1) {
+    background-color: #e67e22;
+}
+.special {
+    padding: 20px;
+    color: rgb(22, 14, 14);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(85, 133, 133) ;
+
+}
