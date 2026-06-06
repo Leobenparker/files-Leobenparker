@@ -26,21 +26,23 @@ body {
    </nav>
 */
 
-.flex-container {
+.navbar {
   background-color: #1a1a2e;
   padding: 0 2rem;
   height: 64px;
 
   /* 👉 TASK 1: Turn the navbar into a flex container */
   display: flex;
+ 
 
   /* 👉 TASK 2: Vertically center the logo and links
      Hint: think about the CROSS axis */
-  align-items: center;
+    align-items: center;
+ 
 
   /* 👉 TASK 3: Push the logo LEFT and the links RIGHT
      Hint: there's a value that puts space BETWEEN items */
-    justify-content: space-between;
+  justify-content: space-between;
  
 }
 
@@ -56,8 +58,10 @@ body {
 
   /* 👉 TASK 4: Make the nav links sit in a horizontal row
      (They are inside a <ul> — make the ul a flex container) */
-    display: flex ;
+     list-style: none;
+        display: flex;
 
+ 
 
   gap: 2rem;
 }
@@ -100,22 +104,23 @@ body {
    </main>
 */
 
-.flex-container {
+.card-section {
   max-width: 1200px;
   margin: 2.5rem auto;
   padding: 0 2rem;
 
   /* 👉 TASK 5: Turn the card section into a flex container */
-    display: flex;
+  display: flex;
  
 
   /* 👉 TASK 6: Add some space between the cards
      Hint: use the gap property OR a justify-content value */
-  gap: 2rem;
+    gap: 2rem;
+ 
 
   /* 👉 TASK 7: Make sure cards align at the top
      (What align-items value keeps them from stretching?) */
-    align-items: flex-start;
+  align-items: flex-start;
  
 }
 
@@ -217,14 +222,14 @@ body {
   margin-bottom: 0.8rem;
 }
 
-.flex-container {
+.tag-row {
   /* 👉 TASK 9: Turn this into a flex container so the
      topic tags line up in a row. Then allow the tags to
      WRAP onto a new line when they run out of space.
      Hint: you need TWO properties here — one to activate
      flex, and one to allow wrapping. */
-    display: flex;
-    flex-wrap: wrap;
+     display-flex;
+     flex-wrap: wrap;
  
 
   gap: 0.5rem;
@@ -262,7 +267,7 @@ body {
   margin-bottom: 0.8rem;
 }
 
-.flex-container {
+.author-card {
   background: white;
   border-radius: 10px;
   padding: 1.5rem;
@@ -272,8 +277,8 @@ body {
      and stack its children VERTICALLY (column direction).
      The avatar, text, and button should be on top of
      each other, not side by side. */
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column; 
  
 
   gap: 1rem;
@@ -305,7 +310,7 @@ body {
      left-aligned.
      Hint: don't change the container — use a property
      that targets this single item on the cross axis. */
-    align-self: flex-end;
+        align-self: flex-end;
  
 }
 
