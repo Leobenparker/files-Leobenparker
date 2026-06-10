@@ -1,0 +1,67 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header h1 {
+    color: black;
+    background-color: rgb(74, 144, 185);
+    border: thick solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    display: flex;
+     justify-content: space-around;
+}
+nav a {
+    
+    display: block;
+    background-color: rgb(155, 204, 212);
+    color: rgb(23, 22, 21);
+    width: 200px;
+    padding: 5px 10px;
+}
+nav a:hover {
+    color: blue;
+    background-color: antiquewhite;
+    text-decoration: wavy;
+}
+
+.child {
+    width: 75%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+} 
+.parent {
+    padding: 5px;
+    color: brown;
+    display: flex;
+
+}
+.card {
+    flex: 0 0 25%;
+   box-sizing: border-box;
+    border: thin solid rgb(108, 46, 46);
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    flex-wrap: wrap;
+}
+.footer-link {
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    margin: 10px;
+    padding: 10px;
+justify-content: space-evenly;
+
+}
+.footer-link a {
+    display: block;
+    color: rgb(38, 39, 36)
+}
+
