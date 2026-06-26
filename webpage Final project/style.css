@@ -42,7 +42,7 @@ nav a:hover {
 .hero {
     height: 100vh;
 
-    background-image: url("Images/welpaper.png");
+    background-image: url("images/welpaper.png");
     background-size: cover;
     background-position: center;
     display: flex;
