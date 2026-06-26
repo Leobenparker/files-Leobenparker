@@ -1,0 +1,19 @@
+nav a :hover {
+    background-color: rgb(184, 251, 251);
+    color: rgb(5, 99, 82);
+}
+Nav a {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+main div {
+    background-color: rgb(99, 199, 230);
+    margin: 10px;
+    padding: 10px;
+}
+
+#footertext {
+    color: rgb(5, 99, 82);
+}
